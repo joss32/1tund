@@ -8,6 +8,15 @@
 
 Eesnimi:<input type="text" id="first_name"><br>
 Perenimi:<input type="text" id="last_name">
-<input type="submit" value="Tervita"
+<input type="submit" value="Tervita">
+
+<script>
+
+function welcome(){
+    console.log("töötab")
+  }
+
+</script>
+
 </body>
 </html>
