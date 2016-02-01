@@ -6,16 +6,19 @@
 </head>
 <body>
 
-Eesnimi:<input type="text" id="first_name"><br>
-Perenimi:<input type="text" id="last_name">
+Eesnimi:<input type="text" id="first-name"><br>
+Perenimi:<input type="text" id="last-name">
 <input type="submit" value="Tervita">
 
 <script>
-
+var first_name;
+var last_name;
 function welcome(){
-    console.log("töötab")
+    console.log("töötab");
   }
 
+first-name=document.getElementById("first-name").value;
+last-name=document.getElementById("last-name").value;
 </script>
 
 </body>
