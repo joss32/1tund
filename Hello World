@@ -6,5 +6,8 @@
 </head>
 <body>
 
+Eesnimi:<input type="text" id="first_name"><br>
+Perenimi:<input type="text" id="last_name">
+<input type="submit" value="Tervita"
 </body>
 </html>
