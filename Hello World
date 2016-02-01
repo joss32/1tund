@@ -10,6 +10,8 @@ Eesnimi:<input type="text" id="first-name"><br>
 Perenimi:<input type="text" id="last-name">
 <input type="submit" value="Tervita" onclick="welcome()">
 
+<div id="output"></div>
+
 <script>
 var first_name;
 var last_name;
@@ -21,6 +23,11 @@ function welcome(){
 first_name=document.getElementById("first-name").value;
 last_name=document.getElementById("last-name").value;
 console.log(first_name+" "+last_name);
+//trükin div sisse html
+document.getElementById("output").innerHTML = <b>Tere </b>first_name+" "+last_name;
+
+
+
 }
 </script>
 
